@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="zatemnenie">
+        <window>
+            <a href="#close_window" class="close_window">X</a>
+            <br>
+            <br>
+            <form id="form">
+                <p>Запись на тестдрайв лада-гранта</p>
+                <p>Имя: <input  minlength="5" type="text" name="name" placeholder="name" onkeypress="onlyName(event)"></p>
+                <p>Email: <input type="email" name="mail" placeholder="mail" onkeypress="onlyMail(event)"></p>
+                <p>Телефон: <input id="name" type="tel" name="phone" placeholder="phone" onkeypress="onlyNumber(event)"></p>
+                <p><input  type="submit" id="btn" value="Вход"></p>
+                <input type="hidden">
+               </form>
+        </window>
+    </div>
+    <button class="btn" onclick="location.hash ='zatemnenie'">запись на тестдрайв</button>
+        <button  onClick='location.href="main.html"'>вернуться</button>
+
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
